@@ -184,12 +184,15 @@ img {
   justify-content: flex-end;
 }
 .navcont nav {
+  font-size: 1.8rem;
   width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .footer {
+  max-width: 800px;
+  margin: 0 auto;
   width: 100%;
   border-top: 2px dashed silver;
   background: #FFEBCD;
@@ -214,6 +217,13 @@ Header {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.topsect img {
+  padding-bottom: 2%;
+}
+.topsect .welcome-cont {
+  border-bottom: 1px dashed black;
+  padding-bottom: 1%;
 }
 .home .content-section {
   margin: 30px 0;
@@ -260,4 +270,13 @@ Header {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .btn {
+  display: block;
+  background-color: #17A2B8;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
 }
