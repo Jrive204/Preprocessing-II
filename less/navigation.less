@@ -4,18 +4,34 @@
     display: flex;
     width: 100%;
     .toppad();
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     
     
 
     .funbustop {
         width: 50%;
         display: flex;
         justify-content: flex-start;
+        @media @mobile {
+            width: 100%;
+            justify-content: center;
+        }
+
     }//funbusstop close
 
     .topnav{
         width: 50%;
         display: flex;
         justify-content: flex-end;
+        @media @mobile {
+            width: 100%;
+            justify-content: center;
+        }
+    
      }//topnav close
 
      nav{
